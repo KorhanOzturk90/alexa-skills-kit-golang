@@ -178,6 +178,7 @@ type Card struct {
 	Content string `json:"content,omitempty"`
 	Text    string `json:"text,omitempty"`
 	Image   *Image `json:"image,omitempty"`
+	Permissions []string `json:"image,permissions"`
 }
 
 // Image provides URL(s) to the image to display in resposne to the request.
